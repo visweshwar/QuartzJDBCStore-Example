@@ -1,3 +1,6 @@
+This example is to illustrate how we can use Quartz JDBCJobStore to ensure that we have only one instance of the job being executed at any given time.
+To illustrate that, we execute 4 instance of the application and print the port number of the instance of the application running
+
 # Run the Applicaiton
 
 ## Start the Docker Process to start MySQL Database
