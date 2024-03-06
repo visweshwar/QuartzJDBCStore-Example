@@ -50,3 +50,17 @@ lsof -ti tcp:8081,8082,8083,8084
 ```shell
 lsof -ti tcp:8081| xargs kill
 ```
+
+Notice the Output changing
+
+```shell
+Executing Job: Application Name - MyApp, Port - 8081
+Executing Job: Application Name - MyApp, Port - 8084
+Executing Job: Application Name - MyApp, Port - 8084
+Executing Job: Application Name - MyApp, Port - 8084
+Executing Job: Application Name - MyApp, Port - 8084
+Executing Job: Application Name - MyApp, Port - 8084
+Executing Job: Application Name - MyApp, Port - 8084
+Executing Job: Application Name - MyApp, Port - 8084
+
+```
