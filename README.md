@@ -4,7 +4,7 @@
 
 ```shell
 (base) Visweshwar-Ganeshs-MacBook-Pro-2:SingleRunner visweshwarganesh$ pwd
-/Users/visweshwarganesh/Development/Box/SingleRunner
+/Users/visweshwarganesh/Development/SingleRunner
 (base) Visweshwar-Ganeshs-MacBook-Pro-2:SingleRunner visweshwarganesh$ docker compose up
 ```
 
@@ -17,7 +17,7 @@
 ./gradlew clean build jar
 ```
 
-## Run multiple instances of the applicatioin
+## Run multiple instances of the application
 
 ```shell
 java -jar SingleRunner-0.0.1-SNAPSHOT.jar --server.port=8081 & \
